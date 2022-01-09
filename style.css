@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+}
+.hamburger-menu {
+  width: 60px;
+  height: 100%;
+  background-color: white;
+  background-size: 100%;
+  background-position: center;
+  cursor: pointer;
+}
+
+.toggle-menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: calc(100vh - 60px);
+  padding: 0 5px;
+
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-menu ul {
+  padding-top: 15px;
+  overflow: hidden;
+  visibility: hidden;
+}
+.toggle-menu ul li {
+  line-height: 60px;
+  list-style: none;
+}
+
+.toggle-menu ul li button {
+  display: block;
+  height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-family: serif;
+  font-size: 16px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  width: 100px;
+}
+.toggle-menu ul li button:hover {
+  background-color: white;
+}
+ul li #blauw {
+  background-color: blue;
+}
+ul li #rood {
+  background-color: red;
+}
+ul li #groen {
+  background-color: green;
+}
+ul li #geel {
+  background-color: yellow;
+}
+ul li #paars {
+  background-color: purple;
+}
+
+.blauwClick {
+  background-color: blue;
+}
+.roodClick {
+  background-color: red;
+}
+.groenClick {
+  background-color: green;
+}
+.geelClick {
+  background-color: yellow;
+}
+.paarsClick {
+  background-color: purple;
+}
